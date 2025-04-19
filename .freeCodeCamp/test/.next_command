@@ -259,3 +259,8 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 [[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
+git remote add origin https://github.com/jordanjoseph95/learn-bash-scripting-by-building-five-programs
+git add bingo.sh countdown.sh five.sh fortune.sh questionnaire.sh
+git commit -m "Add universe.sql for freeCodeCamp project"
+git add
+git add .
