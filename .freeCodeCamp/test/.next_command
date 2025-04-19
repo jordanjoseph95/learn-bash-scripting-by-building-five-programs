@@ -264,3 +264,8 @@ git add bingo.sh countdown.sh five.sh fortune.sh questionnaire.sh
 git commit -m "Add universe.sql for freeCodeCamp project"
 git add
 git add .
+git commit -m "Add universe.sql for freeCodeCamp project"
+git push origin main
+git branch
+git pull origin main --rebase
+git add .
